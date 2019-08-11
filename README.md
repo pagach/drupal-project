@@ -11,7 +11,6 @@ To quick start the project execute:
 
 ```shell
 git clone https://github.com/pagach/docker-compose-lamp.git &&
-cd docker-compose-lamp &&
 chmod +x docker-compose-lamp/setup.sh &&
 ./docker-compose-lamp/setup.sh &&
 cp .env.local .env
