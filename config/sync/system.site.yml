@@ -1,14 +1,14 @@
-uuid: 40507212-d87e-4f15-83e4-68138aac0bfe
-name: E-inkubator
+uuid: 83e8d96d-afcd-43da-87bb-0ee14c1f2356
+name: 'd8 empty'
 mail: alen.pagac@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
-default_langcode: hr
+default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

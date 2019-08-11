@@ -1,15 +1,15 @@
-uuid: e5295840-cfa2-445f-85c8-b0040c44dcef
+uuid: 2c4361f4-ccb8-4187-802f-3ba7ec8ed5e2
 langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.browse_files_modal
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.thumbnail
     - node.type.article
   module:
-    - image
+    - entity_browser
     - path
     - text
 _core:
@@ -35,12 +35,18 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_image:
-    type: image_image
+    type: entity_browser_file
     weight: 4
     region: content
     settings:
-      progress_indicator: throbber
+      entity_browser: browse_files_modal
+      field_widget_remove: true
+      field_widget_replace: true
+      selection_mode: selection_append
       preview_image_style: thumbnail
+      field_widget_edit: true
+      open: false
+      view_mode: default
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
@@ -50,13 +56,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path

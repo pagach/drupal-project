@@ -1,4 +1,4 @@
-uuid: 5a489570-ddf6-4ba0-937c-833421032fc7
+uuid: bd7edec5-02cd-493d-a300-5ffd9b31cff7
 langcode: en
 status: true
 dependencies:
@@ -20,6 +20,11 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
+  addtoany:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   body:
     type: text_summary_or_trimmed
     weight: 0
@@ -51,4 +56,3 @@ content:
 hidden:
   field_image: true
   field_tags: true
-  langcode: true

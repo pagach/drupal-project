@@ -1,4 +1,4 @@
-uuid: 5bcfd7b3-c106-4d44-bfeb-1978834f103b
+uuid: 07ce7b5c-89b7-46b3-9c37-9bc61f20033b
 langcode: und
 status: true
 dependencies:
@@ -45,12 +45,12 @@ widgets:
     settings:
       upload_location: 'public://'
       dropzone_description: 'Click or drop files here to upload them'
-      max_filesize: 60M
+      max_filesize: 50M
       extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
       clientside_resize: false
       resize_width: null
       resize_height: null
-      resize_quality: !!float 1
+      resize_quality: 1
       resize_method: contain
       thumbnail_method: contain
       submit_text: 'Select entities'

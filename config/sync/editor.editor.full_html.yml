@@ -1,4 +1,4 @@
-uuid: 8437a45b-e585-47d2-8c4e-e3bc52be5b5b
+uuid: c60b47e3-7fcc-4509-bf70-e5486ff54967
 langcode: en
 status: true
 dependencies:
@@ -19,16 +19,11 @@ settings:
           items:
             - Bold
             - Italic
-            - Underline
             - Strike
             - Superscript
             - Subscript
             - '-'
             - RemoveFormat
-            - JustifyLeft
-            - JustifyCenter
-            - JustifyRight
-            - JustifyBlock
         -
           name: Linking
           items:
@@ -39,8 +34,6 @@ settings:
           items:
             - BulletedList
             - NumberedList
-            - Outdent
-            - Indent
         -
           name: Media
           items:
@@ -48,8 +41,6 @@ settings:
             - DrupalImage
             - Table
             - HorizontalRule
-            - node
-            - file_browser
         -
           name: 'Block Formatting'
           items:
@@ -57,19 +48,16 @@ settings:
         -
           name: Tools
           items:
-            - Maximize
             - ShowBlocks
             - Source
   plugins:
-    language:
-      language_list: un
     stylescombo:
       styles: ''
 image_upload:
   status: true
   scheme: public
-  directory: uploads/inline-images
+  directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

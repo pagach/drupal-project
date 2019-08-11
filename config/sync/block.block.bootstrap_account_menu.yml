@@ -1,4 +1,4 @@
-uuid: 08a6cc94-94f2-4e22-b620-d412150ffb1c
+uuid: db13bc17-f26d-40b0-bc4a-2e451bcea296
 langcode: en
 status: true
 dependencies:
@@ -23,4 +23,5 @@ settings:
   label_display: '0'
   level: 1
   depth: 2
+  expand_all_items: false
 visibility: {  }

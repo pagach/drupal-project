@@ -129,3 +129,8 @@ $settings['rebuild_access'] = TRUE;
  * directory.
  */
 $settings['skip_permissions_hardening'] = TRUE;
+
+/**
+ * Add your custom configuration for local environment.
+ */
+#$config['stage_file_proxy.settings']['origin'] = 'http://example.com';

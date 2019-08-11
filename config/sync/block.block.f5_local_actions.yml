@@ -1,0 +1,20 @@
+uuid: 75b9ad46-2d1e-45cc-81d0-c39528261710
+langcode: en
+status: true
+dependencies:
+  theme:
+    - f5
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: f5_local_actions
+theme: f5
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
