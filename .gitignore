@@ -9,7 +9,8 @@
 
 # Ignore sensitive information
 /web/sites/*/settings.php
-/web/sites/*/settings.local.php
+#/web/sites/*/settings.local.php
+/web/sites/*/parameters.php
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
@@ -22,3 +23,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+#Custom
+/_backup/
