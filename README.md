@@ -19,7 +19,7 @@ cp .env.local .env
 Access your project via link shown during installation.
 
 If you have a database that you would like to import, you can do that quickly by placing `init.sql.gz` file
-to `dumps` in project root. After that execute:
+to `dumps` in project root. After starting your server, execute:
 
 ```shell
 ./docker-compose-lamp/scripts/drush-importdump.sh
