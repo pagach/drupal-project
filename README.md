@@ -13,14 +13,8 @@ To quick start the project execute:
 git clone https://github.com/pagach/docker-compose-lamp.git &&
 chmod +x docker-compose-lamp/setup.sh &&
 ./docker-compose-lamp/setup.sh &&
-cp .env.local .env
+cp .env.local .env &&
+./docker-compose-lamp/scripts/drush-importdump.sh
 ```
 
 Access your project via link shown during installation.
-
-If you have a database that you would like to import, you can do that quickly by placing `init.sql.gz` file
-to `dumps` in project root. After starting your server, execute:
-
-```shell
-./docker-compose-lamp/scripts/drush-importdump.sh
-```
