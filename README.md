@@ -11,10 +11,11 @@ To quick start the project execute:
 
 ```shell
 git clone https://github.com/pagach/docker-compose-lamp.git &&
-chmod +x docker-compose-lamp/setup.sh &&
 ./docker-compose-lamp/setup.sh &&
 cp .env.local .env &&
 ./docker-compose-lamp/scripts/server-start.sh &&
+cp web/sites/default/example.settings.php web/sites/default/settings.php &&
+composer install &&
 ./docker-compose-lamp/scripts/drush-importdump.sh
 ```
 
