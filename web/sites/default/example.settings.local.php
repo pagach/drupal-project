@@ -133,4 +133,7 @@ $settings['skip_permissions_hardening'] = TRUE;
 /**
  * Add your custom configuration for local environment.
  */
-#$config['stage_file_proxy.settings']['origin'] = 'http://example.com';
+$config['stage_file_proxy.settings']['origin'] = 'http://dev.impuls.madev.eu';
+$config['advagg.settings']['enabled'] = FALSE;
+$config['system.performance']['css']['preprocess'] = FALSE;
+$config['system.performance']['js']['preprocess'] = FALSE;
