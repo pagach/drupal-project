@@ -15,9 +15,9 @@ matchers:
     id: 'entity:node'
     weight: 0
     settings:
-      metadata: 'by [node:author] | [node:created:medium]'
+      metadata: 'By [node:author] | [node:created:medium] | Language: [node:langcode]'
       bundles: {  }
-      group_by_bundle: false
+      group_by_bundle: true
       include_unpublished: false
       substitution_type: canonical
       limit: 100

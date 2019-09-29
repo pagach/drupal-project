@@ -1,0 +1,27 @@
+uuid: c422db87-4595-4fb5-abc8-8f62810b78ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.page.body
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.search_result
+targetEntityType: node
+bundle: page
+mode: search_result
+content:
+  search_api_excerpt:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  body: true
+  langcode: true
+  links: true

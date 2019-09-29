@@ -1,0 +1,14 @@
+uuid: b2a5979c-5a52-421c-a44a-aba79dfce702
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: default_term
+label: 'Default term'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
