@@ -1,0 +1,8 @@
+uuid: 4c18d9a0-aa12-469f-9263-651b58bb1a77
+langcode: und
+status: true
+dependencies: {  }
+id: d_m_y
+label: d.m.Y.
+locked: false
+pattern: d.m.Y.

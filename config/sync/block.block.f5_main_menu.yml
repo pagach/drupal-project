@@ -1,4 +1,4 @@
-uuid: 9c3c1f07-78f1-46aa-8381-d55217bd0371
+uuid: 2edad77d-be6a-4dd7-84cf-d17f37ced28a
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ dependencies:
   theme:
     - f5
 _core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
 id: f5_main_menu
 theme: f5
-region: navigation
+region: top_bar
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

@@ -1,9 +1,0 @@
-uuid: 00b17c16-a241-4a06-99dd-20adc54197f7
-langcode: en
-status: true
-dependencies: {  }
-id: hr
-label: Croatian
-direction: ltr
-weight: 1
-locked: false

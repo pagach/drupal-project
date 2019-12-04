@@ -1,5 +1,5 @@
-uuid: 83e8d96d-afcd-43da-87bb-0ee14c1f2356
-name: 'd8 empty'
+uuid: f801c45e-a126-411a-a1e2-b1ab90b2d06a
+name: 'D 8.8'
 mail: alen.pagac@gmail.com
 slogan: ''
 page:
@@ -11,4 +11,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

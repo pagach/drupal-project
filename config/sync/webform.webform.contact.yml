@@ -1,4 +1,4 @@
-uuid: 6666dd6f-a8f3-484c-b5e1-99151ed785d9
+uuid: b9df0235-76f6-4ae1-aa4f-de0cc0eb25aa
 langcode: en
 status: open
 dependencies:
@@ -179,6 +179,40 @@ access:
     users: {  }
     permissions: {  }
 handlers:
+  email_confirmation:
+    id: email
+    label: 'Email confirmation'
+    handler_id: email_confirmation
+    status: true
+    conditions: {  }
+    weight: 1
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:email:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      theme_name: ''
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
   email_notification:
     id: email
     label: 'Email notification'
@@ -198,8 +232,8 @@ handlers:
       from_mail: '[webform_submission:values:email:raw]'
       from_options: {  }
       from_name: '[webform_submission:values:name:raw]'
-      subject: _default
-      body: _default
+      subject: '[webform_submission:values:subject:raw]'
+      body: '[webform_submission:values:message:value]'
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true

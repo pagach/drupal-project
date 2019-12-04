@@ -1,9 +1,9 @@
-uuid: be23bae7-23fa-4511-b00f-50c007d51ee9
+uuid: 5675d88d-3015-42e0-941f-27aca91e1153
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
 id: authenticated
 label: 'Authenticated user'
 weight: 1

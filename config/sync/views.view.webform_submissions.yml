@@ -1,4 +1,4 @@
-uuid: 6211f7e3-5f0b-44ac-8ac8-a7846b43c5ff
+uuid: 4bcaa6bb-fc81-4acb-922e-3b98c7824630
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,6 @@ description: 'Default webform submissions views.'
 tag: ''
 base_table: webform_submission
 base_field: sid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -1313,6 +1312,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -1353,6 +1354,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -1394,6 +1397,8 @@ display:
               anonymous: '0'
               administrator: '0'
               demo_region: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2283,6 +2288,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2323,6 +2330,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -2364,6 +2373,8 @@ display:
               anonymous: '0'
               administrator: '0'
               demo_region: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -3058,6 +3069,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -3098,6 +3111,8 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -3139,6 +3154,8 @@ display:
               anonymous: '0'
               administrator: '0'
               demo_region: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

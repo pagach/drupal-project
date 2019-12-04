@@ -1,4 +1,4 @@
-uuid: c60b47e3-7fcc-4509-bf70-e5486ff54967
+uuid: 594ed29d-6039-4765-b02a-46b67e24eaa9
 langcode: en
 status: true
 dependencies:
@@ -19,8 +19,8 @@ settings:
           items:
             - Bold
             - Italic
-            - Strike
             - Underline
+            - Strike
             - Superscript
             - Subscript
             - '-'
@@ -45,14 +45,15 @@ settings:
           name: Media
           items:
             - Blockquote
+            - DrupalMediaLibrary
             - Table
-            - ImceImage
             - HorizontalRule
             - SpecialChar
         -
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
@@ -70,8 +71,8 @@ settings:
 image_upload:
   status: true
   scheme: public
-  directory: uploads/inline-images
-  max_size: '5 MB'
+  directory: inline-images
+  max_size: ''
   max_dimensions:
     width: null
     height: null

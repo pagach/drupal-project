@@ -1,31 +1,50 @@
-uuid: 4ff4fe17-7831-45ee-8e47-993c98d10ecb
+uuid: 89e58279-be9c-4396-919d-d306755b675e
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.article.body
+    - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - image.style.thumbnail
     - node.type.article
   module:
+    - image
+    - text
     - user
 _core:
-  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+  default_config_hash: uFyekWl4pl40ClJFmjk9tcyPJ-WFSXYsItJHB_XbQqs
 id: node.article.search_result
 targetEntityType: node
 bundle: article
 mode: search_result
 content:
-  search_api_excerpt:
-    weight: 0
+  body:
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    label: hidden
     region: content
+  field_image:
+    type: image
+    weight: 0
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+    region: content
+  links:
+    weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
-  addtoany: true
-  body: true
-  field_image: true
+  comment: true
   field_tags: true
   langcode: true
-  links: true
+  search_api_excerpt: true

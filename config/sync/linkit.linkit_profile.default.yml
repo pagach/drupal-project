@@ -1,4 +1,4 @@
-uuid: a04b09c5-6e6d-45a8-ab53-d43674ae2394
+uuid: b2f188e5-1f1e-48d6-a47c-49da117bf90e
 langcode: en
 status: true
 dependencies:
@@ -15,9 +15,9 @@ matchers:
     id: 'entity:node'
     weight: 0
     settings:
-      metadata: 'By [node:author] | [node:created:medium] | Language: [node:langcode]'
+      metadata: 'by [node:author] | [node:created:medium]'
       bundles: {  }
-      group_by_bundle: true
+      group_by_bundle: false
       include_unpublished: false
       substitution_type: canonical
       limit: 100
