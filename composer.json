@@ -94,7 +94,7 @@
         "drupal/tab_toolbar": "^1.0",
         "drupal/taxonomy_access_fix": "^2.6",
         "drupal/twig_tweak": "^2.4",
-        "drupal/webform": "^5.4",
+        "drupal/webform": "^5.6",
         "drush/drush": "^9.0.0",
         "enyo/dropzone": "4.2.0",
         "vlucas/phpdotenv": "^2.4",
