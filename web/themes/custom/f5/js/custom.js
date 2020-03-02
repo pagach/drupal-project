@@ -5,3 +5,9 @@
     }
   };
 })(jQuery, Drupal, drupalSettings);
+
+// No behaviors:
+/*
+jQuery( document ).ready(function($) {
+  // YOUR CODE
+});*/
