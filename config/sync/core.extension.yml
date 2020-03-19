@@ -13,7 +13,6 @@ module:
   captcha: 0
   ckeditor: 0
   color: 0
-  comment: 0
   config: 0
   config_filter: 0
   config_ignore: 0
@@ -26,6 +25,7 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_advanced_link: 0
   entity_reference_revisions: 0
   field: 0
   field_group: 0
@@ -34,11 +34,11 @@ module:
   filter: 0
   focal_point: 0
   image: 0
+  imce: 0
+  imce_search_plugin: 0
   language: 0
   link: 0
   linkit: 0
-  media: 0
-  media_library: 0
   menu_ui: 0
   metatag: 0
   metatag_facebook: 0
@@ -51,13 +51,15 @@ module:
   quick_node_clone: 0
   quickedit: 0
   rdf: 0
+  responsive_image: 0
   search: 0
   search_api: 0
   search_api_db: 0
-  shortcut: 0
+  simple_font_resize: 0
   simple_sitemap: 0
   simplelogin: 0
   system: 0
+  tab_toolbar: 0
   taxonomy: 0
   taxonomy_access_fix: 0
   telephone: 0
